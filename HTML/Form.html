@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <label for="username">Username:</label>
+        <input id="username" type="text" placeholder="Enter name" name="username">
+        <br>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Must contains A-Z, a-z, 0-9 & special char" name="password">
+        <br> 
+        <label for="age">I am 18+</label>
+        <input id="age" type="checkbox" name="age" >
+
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="maths" name="sub" value="math">
+            <label for="maths">Maths</label>
+            <input type="checkbox" id="english" name="sub" value="eng">
+            <label for="english">English</label>
+            <input type="checkbox" id="science" name="sub" value="sci">
+            <label for="science">Science</label>
+        </div>
+
+        <div>
+            Profession:
+            <select name="profession" id="profession">
+                <option value="st">Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+
+        <label for="volume"> Slect volume:</label>
+        <input type="range" min="0" max="100" id="vol" name="volume" step="10" value="50">
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feed" rows="5" cols="5"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search on google" name="q">
+        <button>search</button>
+
+    </form>
+</body>
+</html>
