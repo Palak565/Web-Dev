@@ -1,0 +1,20 @@
+div {
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-top-right-radius: 15px;
+    margin: 10px 20px 30px;
+}
+
+h1 {
+    border: 5px dashed green;
+}
+
+button {
+    border: 5px black solid  ;
+    border-radius: 15px;
+    padding: 10px 20px 30px 40px;
+}
