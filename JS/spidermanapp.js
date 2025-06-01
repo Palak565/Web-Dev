@@ -1,11 +1,5 @@
 let mainImg = document.querySelector("#mainImg");
 
-
-mainImg.addEventListener('scroll',function(){
-    console.log('Scroll');
-})
-
-
 let inp = document.querySelector("#inp");
 
 inp.addEventListener('keypress',function(e){
