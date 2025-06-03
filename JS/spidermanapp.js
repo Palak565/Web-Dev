@@ -1,11 +1,5 @@
 let mainImg = document.querySelector("#mainImg");
 
-
-mainImg.addEventListener('scroll',function(){
-    console.log('Scroll');
-})
-
-
 let inp = document.querySelector("#inp");
 
 inp.addEventListener('keypress',function(e){
@@ -37,3 +31,17 @@ inp.addEventListener('input', function(){
     let heading = document.querySelector("#heading");
     heading.innerText = name;
 })
+
+
+function savetoDB(data){
+    return new Promise((resolve,reject)=>{
+        let internetSpeed = Math.ceil(Math.random()*10);
+        if (internetSpeed > 4){
+            resolve("Success : Data was saved");
+        } else {
+            reject("Failure: Weak connection");
+        }
+    });
+}
+
+fetch("https://catfact.ninja/fact");
